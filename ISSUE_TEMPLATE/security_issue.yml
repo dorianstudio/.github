@@ -1,0 +1,100 @@
+name: Security issue
+description: Report a vulnerability, misconfiguration, or security weakness found in our systems.
+title: "fix: "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For internal reports. **If this involves a leaked credential or exposed customer data, do not file it here.** Follow the security policy so it reaches as few people as possible.
+
+        Do not paste secrets, tokens, or passwords into this form under any circumstances.
+
+  - type: dropdown
+    id: system
+    attributes:
+      label: Affected system
+      options:
+        - Customer web
+        - Employee web
+        - Core web / API (dorian)
+        - Workers / Lambdas
+        - Salesforce
+        - Infrastructure (k8s, AWS, network)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Your best estimate. Triage may change it.
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: finding
+    attributes:
+      label: What was found
+      description: Describe the weakness and how you discovered it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: exposure
+    attributes:
+      label: Exposure
+      description: What data or access is at risk, and who could reach it (public internet, any employee, admins only, etc.).
+    validations:
+      required: true
+
+  - type: dropdown
+    id: secrets_involved
+    attributes:
+      label: Are credentials or secrets involved?
+      description: Answer yes or no only. Never paste the secret itself.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: remediation
+    attributes:
+      label: Suggested remediation
+      description: What you think should change, if you have a view.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This report contains no secrets, tokens, or customer personal data.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### R&D tax credit tracking
+        Optional. Fill this in if the work involves solving a problem we do not yet know how to solve.
+
+  - type: checkboxes
+    id: rd_flag
+    attributes:
+      label: R&D
+      options:
+        - label: This work involves technical uncertainty and may qualify for the R&D credit.
+
+  - type: textarea
+    id: rd_uncertainty
+    attributes:
+      label: Technical uncertainty and experimentation
+      description: What we don't yet know how to do, why existing approaches fall short, and what we plan to try. Add the outcome as a comment when the issue closes.

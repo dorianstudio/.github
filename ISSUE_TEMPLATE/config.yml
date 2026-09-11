@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Report a security vulnerability
+  - name: Active credential leak or customer data exposure
     url: https://github.com/dorianstudio/.github/security/policy
-    about: Please do not open a public issue for security problems. Follow the security policy instead.
+    about: Do not open an issue for these. Follow the security policy so the report reaches as few people as possible.

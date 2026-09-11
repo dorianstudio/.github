@@ -5,7 +5,7 @@ Organization-wide defaults for GitHub repositories in the dorianstudio organizat
 Files in this repository are used automatically by every repository in the organization that does not
 have its own copy:
 
-- `ISSUE_TEMPLATE/` – issue forms for bug reports, feature requests, and tasks, plus `config.yml`
+- `ISSUE_TEMPLATE/` – issue forms for bug reports, feature requests, tasks, and security issues, plus `config.yml`
   which disables blank issues and adds contact links
 - `PULL_REQUEST_TEMPLATE.md` – pull request body template
 - `CONTRIBUTING.md` – contribution guide, including our Conventional Commits standard
