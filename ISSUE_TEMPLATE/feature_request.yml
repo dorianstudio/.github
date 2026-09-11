@@ -8,21 +8,6 @@ body:
       value: |
         Thanks for the idea. Please search existing issues first.
 
-  - type: dropdown
-    id: system
-    attributes:
-      label: Affected system
-      options:
-        - Customer web
-        - Employee web
-        - Core web / API (dorian)
-        - Workers / Lambdas
-        - Salesforce
-        - Infrastructure (k8s, AWS, network)
-        - Other
-    validations:
-      required: true
-
   - type: textarea
     id: problem
     attributes:
