@@ -28,13 +28,3 @@ Part of R&D issue # <!-- leave blank if not applicable -->
 ## Deployment notes
 
 <!-- Migrations, new env vars or secrets, Salesforce metadata, k8s manifest changes. Write "None" if nothing. -->
-
-None
-
-## Checklist
-
-- [ ] PR title follows Conventional Commits
-- [ ] Tests added or updated, or N/A
-- [ ] Docs updated, or N/A
-- [ ] No secrets or customer data in the diff
-- [ ] Ready for review by @dorianstudio/software-development

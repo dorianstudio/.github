@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For internal reports. **If this involves a leaked credential or exposed customer data, do not file it here.** Follow the security policy so it reaches as few people as possible.
+        For internal reports. **If this involves a leaked credential or exposed customer data, do not file it here.** Follow the security policy.
 
         Do not paste secrets, tokens, or passwords into this form under any circumstances.
 
@@ -55,21 +55,6 @@ body:
     attributes:
       label: Suggested remediation
       description: What you think should change, if you have a view.
-
-  - type: checkboxes
-    id: confirmation
-    attributes:
-      label: Confirmation
-      options:
-        - label: This report contains no secrets, tokens, or customer personal data.
-          required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ### R&D tax credit tracking
-        Optional. Fill this in if the work involves solving a problem we do not yet know how to solve.
 
   - type: checkboxes
     id: rd_flag

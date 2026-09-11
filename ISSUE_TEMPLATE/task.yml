@@ -42,13 +42,6 @@ body:
       label: Related issues / PRs
       placeholder: "#123, dorianstudio/dorian#456"
 
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ### R&D tax credit tracking
-        Optional. Fill this in if the work involves solving a problem we do not yet know how to solve.
-
   - type: checkboxes
     id: rd_flag
     attributes:

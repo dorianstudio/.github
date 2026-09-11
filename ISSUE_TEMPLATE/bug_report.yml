@@ -61,23 +61,6 @@ body:
       description: Paste relevant logs or drag in screenshots. Redact secrets and personal data.
 
   - type: checkboxes
-    id: confirmation
-    attributes:
-      label: Confirmation
-      options:
-        - label: I searched existing issues and this is not a duplicate.
-          required: true
-        - label: This report contains no customer personal data.
-          required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ### R&D tax credit tracking
-        Optional. Fill this in if the work involves solving a problem we do not yet know how to solve.
-
-  - type: checkboxes
     id: rd_flag
     attributes:
       label: R&D
