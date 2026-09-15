@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Active credential leak or customer data exposure
-    url: https://github.com/dorianstudio/.github/security/policy
-    about: Do not open an issue for these. Follow the security policy.

@@ -3,11 +3,6 @@ description: Propose new functionality or an improvement.
 title: "feat: "
 labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for the idea. Please search existing issues first.
-
   - type: textarea
     id: problem
     attributes:
@@ -50,15 +45,8 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: rd_flag
-    attributes:
-      label: R&D
-      options:
-        - label: This work involves technical uncertainty and may qualify for the R&D credit.
-
   - type: textarea
     id: rd_uncertainty
     attributes:
-      label: Technical uncertainty and experimentation
+      label: Research & Development - Technical Uncertainty
       description: What we don't yet know how to do, why existing approaches fall short, and what we plan to try. Add the outcome as a comment when the issue closes.

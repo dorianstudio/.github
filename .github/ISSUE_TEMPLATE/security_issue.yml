@@ -1,20 +1,13 @@
 name: Security issue
-description: Report a vulnerability, misconfiguration, or security weakness found in our systems.
-title: "fix: "
+description: Vulnerability, misconfiguration, or security weakness found in our systems.
+title: "fix:"
 labels: ["security"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        For internal reports. **If this involves a leaked credential or exposed customer data, do not file it here.** Follow the security policy.
-
-        Do not paste secrets, tokens, or passwords into this form under any circumstances.
-
   - type: dropdown
     id: severity
     attributes:
       label: Severity
-      description: Your best estimate. Triage may change it.
+      description: Your best estimate. May be changed in triage.
       options:
         - Low
         - Medium
@@ -39,32 +32,14 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: secrets_involved
-    attributes:
-      label: Are credentials or secrets involved?
-      description: Answer yes or no only. Never paste the secret itself.
-      options:
-        - "No"
-        - "Yes"
-    validations:
-      required: true
-
   - type: textarea
     id: remediation
     attributes:
       label: Suggested remediation
       description: What you think should change, if you have a view.
 
-  - type: checkboxes
-    id: rd_flag
-    attributes:
-      label: R&D
-      options:
-        - label: This work involves technical uncertainty and may qualify for the R&D credit.
-
   - type: textarea
     id: rd_uncertainty
     attributes:
-      label: Technical uncertainty and experimentation
+      label: Research & Development - Technical Uncertainty
       description: What we don't yet know how to do, why existing approaches fall short, and what we plan to try. Add the outcome as a comment when the issue closes.
