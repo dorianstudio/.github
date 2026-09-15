@@ -1,0 +1,74 @@
+name: Bug report
+description: Something is broken or behaving incorrectly.
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please search existing issues first, and keep customer personal data out of this form.
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Production
+        - Staging
+        - Development
+        - Local
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: A clear description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead.
+    validations:
+      required: true
+
+  - type: input
+    id: references
+    attributes:
+      label: Related job / order numbers
+      description: Job numbers, order numbers, or other internal identifiers that reproduce the problem.
+      placeholder: e.g. job 123456, order 987654
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, error output
+      description: Paste relevant logs or drag in screenshots. Redact secrets and personal data.
+
+  - type: checkboxes
+    id: rd_flag
+    attributes:
+      label: R&D
+      options:
+        - label: This work involves technical uncertainty and may qualify for the R&D credit.
+
+  - type: textarea
+    id: rd_uncertainty
+    attributes:
+      label: Technical uncertainty and experimentation
+      description: What we don't yet know how to do, why existing approaches fall short, and what we plan to try. Add the outcome as a comment when the issue closes.
