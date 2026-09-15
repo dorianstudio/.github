@@ -13,13 +13,8 @@ The PR title becomes the squash-merge commit message.
 
 Closes #
 
-## R&D
-
-Part of R&D issue # <!-- leave blank if not applicable -->
-
 ## Changes
 
--
 
 ## Testing
 
