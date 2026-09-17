@@ -3,6 +3,7 @@ name: Bug report
 about: Something is broken or behaving incorrectly.
 title: "fix: "
 labels: bug
+projects: dorianstudio/3
 ---
 
 ## What happened

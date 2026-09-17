@@ -3,6 +3,7 @@ name: Task / chore
 about: Maintenance, infrastructure, refactoring, or other work with no user-facing change.
 title: "chore: "
 labels: chore
+projects: dorianstudio/3
 ---
 
 ## Task type

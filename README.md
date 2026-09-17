@@ -6,7 +6,8 @@ Files in this repository are used automatically by every repository in the organ
 have its own copy:
 
 - `.github/ISSUE_TEMPLATE/` – markdown issue templates for bug reports, feature requests, tasks, and
-  security issues
+  security issues; each adds the issue to the **Software Development** org project
+  (the reporter needs write access to that project, or the add is skipped)
 - `PULL_REQUEST_TEMPLATE.md` – pull request body template
 - `CONTRIBUTING.md` – contribution guide, including our Conventional Commits standard
 
