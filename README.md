@@ -5,11 +5,11 @@ Organization-wide defaults for GitHub repositories in the dorianstudio organizat
 Files in this repository are used automatically by every repository in the organization that does not
 have its own copy:
 
-- `.github/ISSUE_TEMPLATE/` – issue forms for bug reports, feature requests, tasks, and security issues, plus `config.yml`
-  which disables blank issues and adds contact links
+- `.github/ISSUE_TEMPLATE/` – markdown issue templates for bug reports, feature requests, tasks, and
+  security issues; each adds the issue to the **Software Development** org project
+  (the reporter needs write access to that project, or the add is skipped)
 - `PULL_REQUEST_TEMPLATE.md` – pull request body template
 - `CONTRIBUTING.md` – contribution guide, including our Conventional Commits standard
-- `SECURITY.md` – how to report a vulnerability
 
 A repository's own file always takes precedence over the default here. To use the organization
 defaults, delete the repository-level copy.
