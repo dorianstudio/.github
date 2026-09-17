@@ -5,11 +5,11 @@ These guidelines apply to every repository in the dorianstudio organization unle
 
 ## Reporting issues
 
-Open an issue using one of the forms: **Bug report**, **Feature request**, **Task / chore**, or
-**Security issue**. Blank issues are disabled. Each form ends with an optional R&D section; fill it in
-whenever the work involves technical uncertainty so the record exists from the start.
+Open an issue using one of the templates: **Bug report**, **Feature request**, **Task / chore**, or
+**Security issue**. Each template ends with an optional R&D section; fill it in whenever the work
+involves technical uncertainty so the record exists from the start.
 
-Use the **Security issue** form for internal security findings. For an active credential leak or customer
+Use the **Security issue** template for internal security findings. For an active credential leak or customer
 data exposure, do not open an issue at all; follow [SECURITY.md](SECURITY.md) so the report reaches as
 few people as possible.
 

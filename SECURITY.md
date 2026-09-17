@@ -20,5 +20,5 @@ We will keep you informed as we investigate.
 ## Internal findings
 
 Employees who find a vulnerability or misconfiguration that does **not** involve a leaked credential or
-exposed customer data should open an issue with the **Security issue** form in the affected repository.
+exposed customer data should open an issue with the **Security issue** template in the affected repository.
 That keeps the finding tracked alongside the fix. Never paste secrets into an issue.
