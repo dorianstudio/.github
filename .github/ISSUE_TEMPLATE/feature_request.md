@@ -3,7 +3,6 @@ name: Feature request
 about: Propose new functionality or an improvement.
 title: "feat: "
 labels: enhancement
-projects: dorianstudio/3
 ---
 
 ## Problem / motivation
