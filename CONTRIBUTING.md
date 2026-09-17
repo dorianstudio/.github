@@ -9,9 +9,8 @@ Open an issue using one of the templates: **Bug report**, **Feature request**, *
 **Security issue**. Each template ends with an optional R&D section; fill it in whenever the work
 involves technical uncertainty so the record exists from the start.
 
-Use the **Security issue** template for internal security findings. For an active credential leak or customer
-data exposure, do not open an issue at all; follow [SECURITY.md](SECURITY.md) so the report reaches as
-few people as possible.
+Use the **Security issue** template for security findings. Never paste secrets, tokens, or customer
+data into an issue.
 
 ## Branches
 

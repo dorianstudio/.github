@@ -5,7 +5,7 @@ title: "fix: "
 labels: security
 ---
 
-<!-- Never paste secrets, tokens, or passwords into an issue. For an active credential leak or customer data exposure, do not open an issue; follow SECURITY.md instead. -->
+<!-- Never paste secrets, tokens, or passwords into an issue. -->
 
 ## Severity
 

@@ -9,7 +9,6 @@ have its own copy:
   security issues
 - `PULL_REQUEST_TEMPLATE.md` – pull request body template
 - `CONTRIBUTING.md` – contribution guide, including our Conventional Commits standard
-- `SECURITY.md` – how to report a vulnerability
 
 A repository's own file always takes precedence over the default here. To use the organization
 defaults, delete the repository-level copy.
