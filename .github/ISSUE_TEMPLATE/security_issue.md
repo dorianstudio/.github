@@ -3,7 +3,6 @@ name: Security issue
 about: Vulnerability, misconfiguration, or security weakness found in our systems.
 title: "fix: "
 labels: security
-projects: dorianstudio/3
 ---
 
 <!-- Never paste secrets, tokens, or passwords into an issue. -->
